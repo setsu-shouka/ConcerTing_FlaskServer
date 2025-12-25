@@ -2,10 +2,10 @@
 import requests
 
 # Google Place API Key
-google_Place_API_Key = 'AIzaSyDtonL9VSQAeScJ5KtLb60G3zPCc8XnWBs'
+google_Place_API_Key = 'your-api-key-here'
 googleGeocodingRequest_Url = 'https://maps.googleapis.com/maps/api/geocode/json'
 # Central Weather Bureau API Key
-cwb_key = 'CWB-FE15BA9C-5740-4C5A-9793-31F0269E6747'
+cwb_key = 'your-key-here'
 
 
 def get_locationName_from_address(address):
@@ -43,3 +43,4 @@ def get_weather_info(data_id, area):
             return time
         else:
             continue
+
